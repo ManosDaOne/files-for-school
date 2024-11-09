@@ -1,4 +1,0 @@
-@echo off
-echo X=MsgBox("nigger",4+64,"nigger") > grg.vbs
-grg.vbs
-pause

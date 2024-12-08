@@ -1,0 +1,14 @@
+import tkinter as tk
+def yesfunc():
+    label1.config(text="φαίνεται")
+def nofunc():
+    label1.config(text="ψεύτη")
+root = tk.Tk()
+root.geometry("250x150")
+yesbutton = tk.Button(root, text="Yes",command=yesfunc)
+yesbutton.place(x=150, y=100)
+nobutton = tk.Button(root, text="No", command=nofunc)
+nobutton.place(x=200, y=100)
+label1 = tk.Label(root, text="είσαι γκέι;", font=("Arial", 28))
+label1.pack()
+root.mainloop()

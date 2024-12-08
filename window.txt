@@ -5,6 +5,7 @@ def nofunc():
     label1.config(text="ψεύτη")
 root = tk.Tk()
 root.geometry("250x150")
+root.title("Σοβαρή ερώτηση")
 yesbutton = tk.Button(root, text="Yes",command=yesfunc)
 yesbutton.place(x=150, y=100)
 nobutton = tk.Button(root, text="No", command=nofunc)

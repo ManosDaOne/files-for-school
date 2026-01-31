@@ -7,6 +7,5 @@ for x in range(1,11):
 import tkinter as t
 r = t.Tk()
 r.geometry("500x270")
-l = t.Label(r, text="ποντικακης gay", font=("Arial", 35)
-l.pack()
+t.Label(r, text="π", font=("Arial", 35)).pack()
 t.mainloop()

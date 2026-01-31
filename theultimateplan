@@ -1,7 +1,7 @@
 i = 1
 for x in range(1,11):
-    with open(f'ποντικακης gay {i}.txt', "w") as file:
-        text = "ποντικακης gay"
+    with open(f'π{i}.txt', "w") as file:
+        text = "π"
         file.write(text)
     i+=1
 import tkinter as t
